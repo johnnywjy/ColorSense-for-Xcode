@@ -46,6 +46,7 @@ BOOL OMColorTypeIsNSColor(OMColorType colorType) { return colorType >= OMColorTy
 	NSRegularExpression *_whiteNSColorRegex;
 	NSRegularExpression *_whiteUIColorRegex;
 	NSRegularExpression *_constantColorRegex;
+    NSRegularExpression *_customHexColorRegex;
 }
 
 @property (nonatomic, strong) OMPlainColorWell *colorWell;
